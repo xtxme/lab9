@@ -6,14 +6,15 @@ void printO(int M,int N)
 	if (M <= 0 || N <= 0 )
 	{
 		cout << "Invalid input";
-	}else{ for (int i = 1; i <= M; i++)
+	}else{ 
+		for (int i = 1; i <= M; i++)
 	{
 		for (int j = 1; j <= N; j++)
 		{
 			cout<<"O";
 		}
 		cout<<'\n';
-	}
+	    }
 	}
 	
 }
